@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSéducteur Blog - Articles et Inspiration pour Développeurs Frontend</title>
+    <meta name="description"
+        content="Découvrez des articles passionnants sur le développement web, les technologies frontend, les conseils de carrière et l'équilibre vie professionnelle pour les développeurs. Le blog par et pour les passionnés de code.">
+    <meta name="keywords"
+        content="blog développement web, articles tech, frontend, javascript, react, vue, développement personnel, carrière développeur">
+    <meta name="author" content="CSSéducteur">
+    <meta name="robots" content="index, follow">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💘</text></svg>">
+</head>
+
+<body class="bg-gradient-to-br from-pink-50 to-purple-100 min-h-screen font-sans text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">
+                CSSéducteur
+            </div>
+            <ul class="flex space-x-6 text-gray-700">
+                <li><a href="index.html" class="hover:text-purple-600 transition">Accueil</a></li>
+                <li><a href="about.html" class="hover:text-purple-600 transition">Comment ça marche</a></li>
+                <li><a href="advantage.html" class="hover:text-purple-600 transition">Avantages</a></li>
+                <li><a href="blog.html" class="hover:text-purple-600 transition text-purple-600">Blog</a></li>
+                <li><a href="#inscription"
+                        class="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-4 py-2 rounded-full hover:from-pink-600 hover:to-purple-700 transition">
+                        S'inscrire
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-24">
+        <header class="text-center mb-16 pt-12">
+            <h1
+                class="text-5xl leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 mb-4">
+                Blog CSSéducteur
+            </h1>
+            <p class="text-2xl text-gray-600 max-w-3xl mx-auto">
+                Inspiration, conseils et réflexions pour les développeurs passionnés
+            </p>
+        </header>
+
+        <main class="grid md:grid-cols-3 gap-8">
+            <!-- Article 1 -->
+            <article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
+                <img src="public/images/blog-react-dating.webp" alt="React et relations"
+                    class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <div class="flex items-center mb-4 text-gray-500">
+                        <span class="mr-2">📅 15 Nov 2024</span>
+                        <span class="bg-pink-100 text-pink-800 px-2 py-1 rounded-full text-xs">Développement
+                            Personnel</span>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-purple-600 mb-4">
+                        Comment React m'a appris l'art des relations
+                    </h2>
+                    <p class="text-gray-700 mb-4">
+                        Découvrez comment les principes de React peuvent transformer votre approche des relations
+                        personnelles et professionnelles.
+                    </p>
+                    <a href="article.html" class="text-pink-600 hover:text-purple-600 font-semibold">
+                        Lire l'article →
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
+                <img src="public/images/blog-dating-career.webp" alt="Carrière et rencontres"
+                    class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <div class="flex items-center mb-4 text-gray-500">
+                        <span class="mr-2">📅 1 Dec 2024</span>
+                        <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded-full text-xs">Carrière</span>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-purple-600 mb-4">
+                        Équilibrer vie amoureuse et carrière tech
+                    </h2>
+                    <p class="text-gray-700 mb-4">
+                        Conseils pratiques pour maintenir un équilibre sain entre votre passion pour le code et vos
+                        relations personnelles.
+                    </p>
+                    <a href="#" class="text-pink-600 hover:text-purple-600 font-semibold">
+                        Lire l'article →
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
+                <img src="public/images/blog-typescript-love.webp" alt="TypeScript et amour"
+                    class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <div class="flex items-center mb-4 text-gray-500">
+                        <span class="mr-2">📅 20 Dec 2024</span>
+                        <span class="bg-pink-100 text-pink-800 px-2 py-1 rounded-full text-xs">Technologie</span>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-purple-600 mb-4">
+                        TypeScript : Le langage de l'amour fortement typé
+                    </h2>
+                    <p class="text-gray-700 mb-4">
+                        Comment les principes de TypeScript peuvent nous inspirer pour des relations plus claires et
+                        plus robustes.
+                    </p>
+                    <a href="#" class="text-pink-600 hover:text-purple-600 font-semibold">
+                        Lire l'article →
+                    </a>
+                </div>
+            </article>
+
+            <!-- Articles secondaires -->
+            <div class="md:col-span-3 bg-white rounded-xl shadow-lg p-8">
+                <h3 class="text-3xl font-semibold text-purple-600 mb-6">
+                    Derniers articles
+                </h3>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">
+                            Les frameworks d'amour
+                        </h4>
+                        <p class="text-gray-600">Comparaison des frameworks de développement et de relations</p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">
+                            Debugging vos rendez-vous
+                        </h4>
+                        <p class="text-gray-600">Techniques de résolution de problèmes dans vos relations</p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">
+                            Code et connexions
+                        </h4>
+                        <p class="text-gray-600">Comment la communauté tech transforme les rencontres</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="mt-16 text-center bg-white rounded-xl shadow-lg p-12">
+            <h2
+                class="text-4xl leading-normal font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 mb-6">
+                Rejoignez notre communauté
+            </h2>
+            <p class="text-xl text-gray-700 mb-8">
+                Abonnez-vous à notre newsletter et recevez les derniers articles et conseils
+            </p>
+            <form class="max-w-md mx-auto flex">
+                <input type="email" placeholder="Votre email"
+                    class="flex-grow p-3 border border-gray-300 rounded-l-lg focus:ring-2 focus:ring-pink-300">
+                <button type="submit"
+                    class="bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-3 px-6 rounded-r-lg hover:from-pink-600 hover:to-purple-700 transition-all">
+                    S'abonner
+                </button>
+            </form>
+        </section>
+
+        <footer class="mt-16 text-center text-gray-600">
+            <p>© 2024 CSSéducteur - Fait avec ❤️ par des développeurs pour des développeurs</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="hover:text-purple-600">Mentions légales</a>
+                <a href="#" class="hover:text-purple-600">Politique de confidentialité</a>
+                <a href="#" class="hover:text-purple-600">Conditions d'utilisation</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
